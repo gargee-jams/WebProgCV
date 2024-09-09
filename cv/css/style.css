@@ -1,0 +1,170 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff; /* White background */
+}
+section {
+    padding: 10px;
+}
+/* Nav and footer */
+nav {
+    background-color: #5390d9; /* Light Blue */
+    color: #F4F1DE; /* Light cream color */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #F4F1DE; /* Light cream color for links */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #80ffdb; /* Aqua accent for hover state */
+}
+
+footer {
+    background-color: #6930c3; /* Deep purple-blue for footer */
+    color: #F4F1DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+}
+
+/* Splash screen */
+.splash {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0fe; /* Light cream background */
+}
+
+.splash h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #7400b8; /* Deep purple for splash heading */
+}
+
+.splash img {
+    border: 3px solid #5390d9; /* Light blue border */
+    border-radius: 50%;
+    width: 150px;
+}
+
+.address {
+    font-weight: bold;
+    color: #56cfe1; /* Aqua blue for address */
+}
+
+.tagline {
+    font-style: italic;
+    color: #6930c3; /* Deep purple-blue for tagline */
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 1px solid #4ea8de; /* Soft sky blue */
+    border-style: dotted;
+    margin: 0;
+}
+
+/* Section headers */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #5e60ce; /* Light purple-blue for section headers */
+}
+
+/* Unordered list */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Description lists using grid layout */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Links */
+a {
+    color: #5390d9; /* Light blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #80ffdb; /* Aqua blue on hover */
+}
+
+/* Project cards */
+.three-col {
+    background-color: #56cfe1; /* Aqua background for the projects section */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #dffbff; /* Light cream background for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #5390d9; /* Light blue border around cards */
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #7400b8; /* Deep purple for card titles */
+}
+
+.disclaimer {
+    color: #5c5d5c; 
+    font-size: small;
+    margin: 0px;
+}
+
+/*contact page*/
+.one-col {
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    margin: 10px;
+    width: 40%
+}
+form textarea {
+    margin: 10px;
+    width: 40%;
+    height: 150px;
+}
+.submit-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5390d9; /* Light blue */
+    color: #f4f1de; /* Light cream color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #64DFDF; /* Aqua accent on hover */
+    color: #6930C3;
+}
+#info {
+    background-color: #dffbff; 
+    margin: 0px;
+}
