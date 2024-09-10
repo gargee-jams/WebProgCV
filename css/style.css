@@ -2,31 +2,31 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
 }
 section {
     padding: 10px;
 }
 /* Nav and footer */
 nav {
-    background-color: #5390d9; /* Light Blue */
-    color: #F4F1DE; /* Light cream color */
+    background-color: #5390d9; 
+    color: #F4F1DE;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
 }
 
 nav a {
-    color: #F4F1DE; /* Light cream color for links */
+    color: #F4F1DE; 
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #80ffdb; /* Aqua accent for hover state */
+    color: #80ffdb; 
 }
 
 footer {
-    background-color: #6930c3; /* Deep purple-blue for footer */
+    background-color: #6930c3; 
     color: #F4F1DE;
     display: flex;
     justify-content: center;
@@ -39,42 +39,48 @@ footer {
 .splash {
     text-align: center;
     padding: 20px;
-    background-color: #f0f0fe; /* Light cream background */
+    background-color: #f0f0fe;
 }
 
 .splash h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
-    color: #7400b8; /* Deep purple for splash heading */
+    color: #7400b8; 
 }
 
 .splash img {
-    border: 3px solid #5390d9; /* Light blue border */
+    border: 3px solid #5390d9; 
     border-radius: 50%;
     width: 150px;
 }
 
 .address {
     font-weight: bold;
-    color: #56cfe1; /* Aqua blue for address */
+    color: #56cfe1; 
 }
 
 .tagline {
     font-style: italic;
-    color: #6930c3; /* Deep purple-blue for tagline */
+    color: #6930c3; 
 }
 
 /* Horizontal rule styling */
 hr {
-    border: 1px solid #4ea8de; /* Soft sky blue */
+    border: 1px solid #4ea8de; 
     border-style: dotted;
     margin: 0;
 }
 
 /* Section headers */
 h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #5e60ce; /* Light purple-blue for section headers */
+    font-family: 'Prisa'; /* google font */
+    color: #5e60ce; 
+}
+
+/* Education Section */
+.edu {
+    background-color: #d1ecf0;
+    padding: 20px;
 }
 
 /* Unordered list */
@@ -91,17 +97,17 @@ dl {
 
 /* Links */
 a {
-    color: #5390d9; /* Light blue for links */
+    color: #5390d9; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #80ffdb; /* Aqua blue on hover */
+    color: #80ffdb;
 }
 
 /* Project cards */
 .three-col {
-    background-color: #56cfe1; /* Aqua background for the projects section */
+    background-color: #56cfe1; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -110,11 +116,11 @@ a:hover {
 
 .card {
     padding: 20px;
-    background-color: #dffbff; /* Light cream background for cards */
+    background-color: #dffbff; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
-    border: 2px solid #5390d9; /* Light blue border around cards */
+    border: 2px solid #5390d9; 
 }
 
 .card img {
@@ -125,13 +131,13 @@ a:hover {
 
 .card h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #7400b8; /* Deep purple for card titles */
+    font-size: 18px; /* font size change */
+    color: #7400b8; 
 }
 
 .disclaimer {
     color: #5c5d5c; 
-    font-size: small;
+    font-size: small; /* font size change */
     margin: 0px;
 }
 
@@ -154,14 +160,14 @@ form textarea {
 .submit-button {
     margin: 10px;
     padding: 10px 20px;
-    background-color: #5390d9; /* Light blue */
-    color: #f4f1de; /* Light cream color */
+    background-color: #5390d9;
+    color: #f4f1de;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .submit-button:hover {
-    background-color: #64DFDF; /* Aqua accent on hover */
+    background-color: #64DFDF; 
     color: #6930C3;
 }
 #info {
